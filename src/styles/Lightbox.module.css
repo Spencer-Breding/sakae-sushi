@@ -1,0 +1,76 @@
+﻿﻿.lightbox {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: calc(100 * var(--vh));
+    background: rgba(255,255,255, 0.7);
+    display: flex;
+    flex-direction: column;
+    z-index: 3;
+    padding-top: 0.5em;
+    overscroll-behavior: contain;
+    overflow: hidden;
+    touch-action: pinch-zoom, double-tap-zoom;
+    box-sizing:border-box;
+}
+
+    .lightbox img {
+        display: flex;
+        width:fit-content;
+        height:fit-content;
+        max-width:70%;
+        max-height:70%;
+        object-fit:contain;
+        margin: auto;
+        user-select: none;
+    }
+
+.closeButton {
+    position: absolute;
+    top: 0.75em;
+    right: 15px;
+    font-size: calc(24px + 2.5vw);
+    background-color: rgba(255,255,255,0.5);
+    border: none;
+    color: #057854;
+    cursor: pointer;
+    user-select: none;
+    z-index: 1;
+}
+
+.fadeIn {
+    opacity: 1;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.fadeOut {
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+@media(max-width: 124em) {
+
+}
+
+@media(max-width:56.25em) {
+   
+}
+
+@media(max-width:37.5em) {
+
+    .closeButton {
+        top: 10px;
+        right: 10px;
+        font-size: 2.25rem;
+    }
+}
+
+@media(max-width:25em) {
+
+    .closeButton {
+        top: 5px;
+        right: 5px;
+        font-size: 2rem;
+    }
+}

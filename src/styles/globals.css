@@ -1,0 +1,49 @@
+body {
+    background-color: white;
+    overflow-x: hidden;
+    overflow-y: auto;
+    margin: 8em 6em;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: white;
+    border: 2px solid #057854;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #057854;
+    border-radius: 80px;
+}
+
+    /* Handle on hover */
+    ::-webkit-scrollbar-thumb:hover {
+        background: #456854;
+    }
+
+@media screen and (orientation: landscape) {
+    @media(max-width: 124em) {
+        body {
+            margin: 4em 4em;
+        }
+    }
+
+    @media(max-width: 68em) {
+        body {
+            margin: 3em 2em;
+        }
+    }
+}
+
+@media screen and (orientation: portrait) {
+    @media(max-width: 60em) {
+        body {
+            margin: 2em 1em;
+        }
+    }
+}
