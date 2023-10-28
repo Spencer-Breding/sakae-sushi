@@ -12,32 +12,13 @@
 }
 
 .rowContainer {
-    display:flex;
+    display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    gap:2em;
-    width:100%;
-    height:fit-content;
-}
-
-
-.button_div {
+    gap: 2em;
     width: 100%;
+    height: fit-content;
 }
-
-    .button_div button {
-        display: flex;
-        margin: auto;
-        background-color: #dc9102;
-        color: black;
-        border: none;
-        border-radius: 10px;
-        font-family: Poppins;
-        font-size: 28px;
-        font-weight: 600;
-        padding: 0.25em;
-        cursor: pointer;
-    }
 
 @media(max-width: 1024px) {
     .container {
@@ -51,19 +32,14 @@
         .container {
             display: flex;
             flex-wrap: nowrap;
-            flex-direction: row; /* Set this to row for horizontal layout */
-            overflow-x: auto; /* Enable horizontal scrolling */
+            flex-direction: row;
+            overflow-x: auto;
             gap: 3em;
-            justify-content: flex-start; /* Align items to the start */
+            justify-content: flex-start;
             width: 100%;
             margin: 0;
             padding-bottom: 2em;
             padding-top: 2em;
-
-        }
-
-        .button_div {
-            display: none;
         }
     }
 }
@@ -74,23 +50,16 @@
         .container {
             display: flex;
             flex-wrap: nowrap;
-            flex-direction: row; /* Set this to row for horizontal layout */
-            overflow-x: auto; /* Enable horizontal scrolling */
+            flex-direction: row; 
+            overflow-x: auto; 
             gap: 3em;
-            justify-content: flex-start; /* Align items to the start */
+            justify-content: flex-start;
             width: 100%;
             margin: 0;
             padding-bottom: 2em;
             padding-top: 2em;
-            white-space: nowrap; /* Prevents wrapping of items */
+            white-space: nowrap;
         }
 
-        .button_div {
-            display: none;
-        }
-        .rowContainer {
-            flex-direction: column;
-            gap: 1em;
-        }
     }
 }

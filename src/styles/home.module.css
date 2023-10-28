@@ -44,10 +44,22 @@
     width: 85%;
 }
 
-.menu{
-    width: auto;
-    max-width:90%;
+.menu_container{
+    display:flex;
+    flex-direction:row;
+    width:100%;
+    height:fit-content;
+    justify-content:space-around;
+}
+
+.menu_left{
+    width: 40%;
     height: auto;
+}
+
+.menu_right{
+    width: 40%;
+    height:auto;
 }
 
 @media(max-width:124em) {
@@ -115,41 +127,26 @@
         margin-right:0.25em;
         margin-left:0.25em;
     }
-
-    .textDiv {
-        width: 100%;
+    .menu_container {
+        flex-direction: column;
+        justify-content: center;
+        gap: 3em;
     }
 
-        .textDiv p {
-            font-size: calc(18px + 1vw);
-            width: 45%;
-        }
-
-    #more {
-        font-size: calc(18px + 1vw);
-        width: 45%;
-        margin-top: 0;
+    .menu_left {
+        width: 60%;
+        margin: auto;
     }
 
-    .competencies {
-        width: 90%;
-        transform: translateX(2.5%);
+    .menu_right {
+        width: 60%;
+        margin: auto;
     }
-
-        .competencies li {
-            width: 27.5%;
-        }
 }
 
 @media screen and (orientation: landscape) {
 
     @media (max-width: 68em) {
-        .textDiv p {
-            font-size:28px;
-        }
-        #more {
-            font-size: 28px;
-        }
         .headerText {
             font-size: 38px;
         }
@@ -158,38 +155,10 @@
             font-size: 24px;
             text-indent: 24px;
         }
-
-        .peter{
-            width:40vw;
-        }
-
-        .competenciesHeader {
-            font-size: 28px;
-        }
-        .competencies{
-            font-size:24px;
-        }
-        .competencies li{
-        }
     }
 
 
     @media (max-width: 54em) {
-        .textDiv {
-            flex-wrap: wrap;
-            width: 100%;
-        }
-
-            .textDiv p {
-                width:45%;
-                font-size: 24px;
-            }
-
-        #more {
-            font-size: 24px;
-            width:45%;
-            margin-top: 0;
-        }
 
         .headerText {
             font-size: 36px;
@@ -199,28 +168,6 @@
             font-size: 22px;
             text-indent: 22px;
         }
-
-        .competenciesHeader {
-            font-size: 28px;
-        }
-
-        .competencies {
-            flex-direction: row;
-            gap: 0;
-            padding: 0;
-            margin-left: auto;
-            margin-right: auto;
-            justify-content: center;
-            width: 90%;
-            font-size: 22px;
-            list-style-position:inside;
-        }
-
-            .competencies li {
-                width: 30%;
-                margin-left: auto;
-                text-indent: -10%;
-            }
     }
 
     @media(max-width: 50em) {
@@ -228,14 +175,6 @@
     }
 
         @media(max-width: 36em) {
-
-            .textDiv p {
-                font-size: 20px;
-            }
-
-            #more {
-                font-size: 20px;
-            }
 
             .headerText {
                 font-size: 28px;
@@ -246,21 +185,6 @@
                 text-indent: 18px;
             }
 
-            .peter {
-                width: 45vw;
-            }
-
-            .competenciesHeader {
-                font-size: 20px;
-            }
-
-            .competencies {
-                font-size: 16px;
-            }
-
-                .competencies li {
-                    width: 30%;
-                }
         }
 
         @media(max-width:24em) {
@@ -268,19 +192,28 @@
                 font-size: 18px;
                 text-indent: 18px;
             }
-
-            .competencies {
-                font-size: 16px;
-            }
         }
     }
 
 @media screen and (orientation: portrait) {
 
+    .menu_container{
+        flex-direction:column;
+        justify-content:center;
+        gap:2em;
+    }
+
+    .menu_left{
+        width:100%;
+        margin:auto;
+    }
+    .menu_right{
+        width:100%;
+        margin:auto;
+    }
+
     @media (max-width: 68em) {
-        .textDiv p {
-            margin-bottom: 1em;
-        }
+        
         .headerText {
             font-size: 42px;
         }
@@ -290,47 +223,10 @@
             text-indent: 28px;
             width: 90%;
         }
-
-        .peter {
-            width: 50vw;
-        }
-
-        .competenciesHeader {
-            font-size: 32px;
-        }
-
-        .competencies {
-            flex-direction: row;
-            gap: 0;
-            padding: 0;
-            margin-left: auto;
-            margin-right: auto;
-            justify-content: center;
-            width: 90%;
-            font-size: 26px;
-        }
-            .competencies li {
-                width: 30%;
-                margin-left: auto;
-            }
     }
 
 
     @media (max-width: 52em) {
-
-        .textDiv {
-            flex-wrap: wrap;
-            width: 100%;
-        }
-
-            .textDiv p {
-                font-size: 24px;
-            }
-
-        #more {
-            font-size: 24px;
-            margin-top: 0;
-        }
 
         .headerText {
             font-size: 32px;
@@ -340,48 +236,13 @@
             font-size: 24px;
             text-indent: 16px;
         }
-
-        .competenciesHeader {
-            font-size: 28px;
-        }
-
-        .competencies {
-            flex-direction: row;
-            gap: 0;
-            padding: 0;
-            margin-left: auto;
-            margin-right: auto;
-            justify-content: center;
-            width: 90%;
-            font-size: 24px;
-        }
-
-            .competencies li {
-                width: 30%;
-                margin-left: auto;
-            }
     }
 
     @media(max-width: 40em) {
-        .textDiv p {
-            width: 100%;
-        }
-
-        #more {
-            width: 100%;
-        }
 
         .about {
             font-size: 20px;
             text-indent: 12px;
-        }
-
-        .peter {
-            width: 70vw;
-        }
-
-        .competenciesHeader {
-            font-size:24px;
         }
     }
 
@@ -389,15 +250,6 @@
         .about {
             font-size: 16px;
             text-indent: 16px;
-        }
-
-        .competenciesHeader{
-            font-size:20px;
-        }
-
-        .competencies {
-            font-size: 16px;
-            width:95%;
         }
     }
 }

@@ -58,23 +58,17 @@
         }
     }
 
-    @media(max-width:80em) {
-       .container div{
-           width: 100%;
-       }
-    }
-
     @media(max-width:68em) {
+        .container div{
+            width: 100%;
+            flex:none;
+        }
         .title {
-            font-size: 24px;
+            font-size: 32px;
         }
 
         .body_text {
-            font-size: 18px;
-        }
-
-        .logo_container img {
-            width: 48px;
+            font-size: 24px;
         }
     }
 
@@ -87,58 +81,31 @@
         .body_text {
             font-size: 22px;
         }
-
-        .logo_container img {
-            width: 60px;
-        }
     }
 }
 
 @media screen and (orientation: portrait) {
     @media(max-width:68em) {
-        .container div {
+        .container div{
             width: 100%;
+            flex:none;
         }
         .title {
-            font-size: 28px;
+            font-size: 32px;
         }
 
         .body_text {
-            font-size: 20px;
-        }
-
-        .container div {
-            width: 100%;
-        }
-    }
-
-    @media(max-width:60em) {
-        .title {
             font-size: 24px;
-        }
-
-        .body_text {
-            font-size: 18px;
         }
     }
 
     @media(max-width:52em) {
         .title {
+            font-size: 30px;
+        }
+
+        .body_text {
             font-size: 22px;
-        }
-
-        .body_text {
-            font-size: 18px;
-        }
-    }
-
-    @media(max-width:42.5em) {
-        .container div {
-            width: 100%;
-        }
-
-        .body_text {
-            font-size: 16px;
         }
     }
 
@@ -148,31 +115,23 @@
         }
 
         .title {
-            font-size: 24px;
+            font-size: 28px;
         }
 
         .body_text {
-            font-size: 18px;
+            font-size: 20px;
         }
     }
 
     @media(max-width:20em) {
 
         .title {
-            font-size: 20px;
+            font-size: 24px;
         }
 
         .body_text {
             font-size: 16px;
         }
-
-        .logo_container {
-            flex-direction: row;
-        }
-
-            .logo_container img {
-                width: 48px;
-            }
     }
 }
 
