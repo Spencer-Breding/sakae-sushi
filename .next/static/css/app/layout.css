@@ -45,6 +45,7 @@
         width: -moz-fit-content;
         width: fit-content;
         padding: 0.25em;
+        padding-bottom: 0;
         margin: 0 auto;
         -webkit-user-select: none;
            -moz-user-select: none;
@@ -70,6 +71,7 @@
     width: -moz-fit-content;
     width: fit-content;
     padding: 0.25em;
+    padding-bottom: 0;
     margin: 0 auto;
     -webkit-user-select: none;
        -moz-user-select: none;
@@ -103,7 +105,7 @@
     height: fit-content;
     z-index: 1;
     visibility: hidden;
-    background-color: rgba(5,120,84, 0.5);
+    background-color: rgba(25,130,74, 0.8);
     padding-top: 1.25vh;
     padding-bottom: 1.25vh;
 }
@@ -121,7 +123,7 @@
     padding: .75vh;
     margin: -.5em;
     margin-left: auto;
-    margin-right: 1em;
+    margin-right: 0.25em;
     position: relative;
     gap: 0.45em;
     cursor: pointer;
@@ -144,11 +146,11 @@
     z-index: 1;
     pointer-events: all;
     height: 95%;
-    background-color: rgba(188,222,211, 1);
+    background-color: rgba(255,255,255, 0.9);
     overscroll-behavior: contain;
     width: 100%;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
     text-align: center;
     -webkit-user-select: none;
        -moz-user-select: none;
@@ -168,17 +170,6 @@
     justify-content: center;
 }
 
-.navbar_burger_logo__BOuXs {
-    position: relative;
-    height: 20vh;
-    width: auto;
-    cursor: pointer;
-    display: flex;
-    text-align: center;
-    justify-content: center;
-    margin: 0 auto;
-}
-
 .navbar_burger_item__jk8gn {
     position: relative;
     display: flex;
@@ -186,16 +177,25 @@
     text-align: center;
     justify-content: center;
     margin: 0;
+    height: -moz-fit-content;
+    height: fit-content;
 }
 
     .navbar_burger_item__jk8gn p {
         position: relative;
-        color: white;
+        color: black;
         font-size: 48px;
         cursor: pointer;
-        text-shadow: 1px 0 0 #dc9102, 0 -1px 0 #dc9102, 0 1px 0 #dc9102, -1px 0 0 #dc9102;
         display: flex;
+        color: #057854;
+        transition: all linear 0.3s;
     }
+
+        .navbar_burger_item__jk8gn p:hover {
+            cursor: pointer;
+            color: #076144;
+            filter: brightness(0.8);
+        }
 
 .navbar_burger_dropdown_slide_in__X18Om {
     transform: translateX(0);
@@ -232,6 +232,16 @@
 @media(max-width:124em) {
 
     .navbar_navbar_item__vwZF5 p {
+        font-size: 28px;
+    }
+
+    .navbar_sakae__lTRtX {
+        font-size: 44px;
+    }
+}
+
+@media(max-width:105em) {
+    .navbar_navbar_item__vwZF5 p {
         font-size: 26px;
     }
 
@@ -240,117 +250,18 @@
     }
 }
 
-@media(max-width:105em) {
-    .navbar_nav_container__QPZKY {
-        min-height: 60px;
-    }
-
-    .navbar_logo___IyD2 {
-        height: 60px;
-    }
-}
-
-@media(max-width: 96em) {
-    .navbar_nav_container__QPZKY {
-        min-height: 52.5px;
-    }
-
-    .navbar_logo___IyD2 {
-        height: 56px;
-        left: 1.5em;
-    }
-
-    .navbar_navbar_item__vwZF5 p {
-        font-size: 24px;
-    }
-}
-
-@media(max-width: 87.5em) {
-    .navbar_navbar_item__vwZF5 p {
-        font-size: 24px;
-    }
-
-    .navbar_logo___IyD2 {
-        left: 1em;
-    }
-}
-
 @media(max-width: 80em) {
-    .navbar_nav_container__QPZKY {
-        min-height: 50px;
-    }
 
     .navbar_navbar_item__vwZF5 p {
-        font-size: 22px;
+        font-size: 24px;
     }
 
-    .navbar_logo___IyD2 {
-        height: 52.5px;
+    .navbar_sakae__lTRtX {
+        font-size: 40px;
     }
 }
 
 @media screen and (orientation: landscape) {
-
-    @media (max-width: 68em) {
-        .navbar_burger__9Cho4 {
-            visibility: visible;
-            height: -moz-fit-content;
-            height: fit-content;
-            margin-bottom: 1vh;
-        }
-
-        .navbar_burger_dropdown__xy4gN {
-            top: 8vh;
-        }
-
-        .navbar_burgerButton__K08sv {
-            margin-right: 2.5vw;
-        }
-
-        .navbar_burger_div__WHzLH {
-            padding-top: 1.5em;
-            padding-bottom: 1.5em;
-        }
-
-        .navbar_burger_logo__BOuXs {
-            height: 30vh;
-            margin-top: 0;
-            top: 0;
-        }
-
-        .navbar_burger_item__jk8gn p {
-            font-size: 24px;
-        }
-
-        .navbar_nav_container__QPZKY {
-            display: none;
-        }
-
-        .navbar_logo_link__6UnTX {
-            visibility: hidden;
-        }
-
-        .navbar_navbar_item__vwZF5 {
-            visibility: hidden;
-        }
-    }
-
-    @media(max-width:50em) {
-        .navbar_burger__9Cho4 {
-        }
-
-        .navbar_burger_dropdown__xy4gN {
-            top: 11vh;
-        }
-
-        .navbar_burger_logo__BOuXs {
-            height: 25vh;
-        }
-
-        .navbar_burger_item__jk8gn p {
-            font-size: 20px;
-        }
-    }
 }
 
 @media screen and (orientation: portrait) {
@@ -359,10 +270,19 @@
 
         .navbar_burger__9Cho4 {
             visibility: visible;
+            height: 2.5vh
         }
 
-        .navbar_burger_logo__BOuXs {
-            height: 15vh;
+        .navbar_burger_item__jk8gn p {
+            font-size: 36px;
+        }
+
+        .navbar_sakae__lTRtX {
+            font-size: 54px;
+        }
+
+        .navbar_burger_dropdown__xy4gN {
+            top: 5vh;
         }
 
         .navbar_nav_container__QPZKY {
@@ -379,20 +299,33 @@
     }
 
     @media (max-width: 52em) {
-
-        .navbar_burger_logo__BOuXs {
-            height: 12.5vh;
+        .navbar_sakae__lTRtX {
+            font-size: 54px;
         }
 
         .navbar_burger_item__jk8gn p {
-            font-size: 24px;
+            font-size: 36px;
         }
     }
 
     @media(max-width:25em) {
 
+        .navbar_burger__9Cho4 {
+            height: 2.5vh;
+            padding-top: 2vh;
+            padding-bottom: 2vh;
+        }
+
+        .navbar_burger_dropdown__xy4gN{
+            top:6.5vh;
+        }
+
         .navbar_burger_item__jk8gn p {
-            font-size: 20px;
+            font-size: 32px;
+        }
+
+        .navbar_sakae__lTRtX{
+            font-size:48px;
         }
     }
 }
@@ -589,7 +522,7 @@ body {
 
     @media(max-width: 68em) {
         body {
-            margin: 3em 2em;
+            margin: 4em 2em;
         }
     }
 }
