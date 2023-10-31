@@ -19,8 +19,8 @@
         display: flex;
         width:fit-content;
         height:fit-content;
-        max-width:70%;
-        max-height:70%;
+        max-width:50%;
+        max-height:50%;
         object-fit:contain;
         margin: auto;
         user-select: none;
@@ -53,7 +53,11 @@
 
 }
 
-@media(max-width:56.25em) {
+@media(max-width:60em) {
+    .lightbox img{
+        max-width: 90%;
+        max-height: 90%;
+    }
    
 }
 

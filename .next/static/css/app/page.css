@@ -199,8 +199,8 @@
         width:fit-content;
         height:-moz-fit-content;
         height:fit-content;
-        max-width:70%;
-        max-height:70%;
+        max-width:50%;
+        max-height:50%;
         object-fit:contain;
         margin: auto;
         -webkit-user-select: none;
@@ -237,7 +237,11 @@
 
 }
 
-@media(max-width:56.25em) {
+@media(max-width:60em) {
+    .Lightbox_lightbox__N0_Gw img{
+        max-width: 90%;
+        max-height: 90%;
+    }
    
 }
 
