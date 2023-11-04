@@ -15,6 +15,7 @@ export default function ImageGallery() {
         { source: "./images/Saba.webp", description: "Saba" },
         { source: "./images/Tamago_Maki.webp", description: "Tamago Maki" },
         { source: "./images/California_Roll.webp", description: "California Roll" },
+        { source: "./images/IMG_4585.webp", description: "" },
     ]
 
     const closeLightbox = () => {

@@ -76,7 +76,7 @@
 @media(max-width:87.5em) {
     .galleryItems_gallery_item__904ck {
         width: 45%;
-        height: 30vh;
+        height: auto;
     }
 
         .galleryItems_gallery_item__904ck p {
@@ -181,7 +181,7 @@
     top: 0;
     left: 0;
     width: 100%;
-    height: calc(100 * var(--vh));
+    height: 100%;
     background: rgba(255,255,255, 0.7);
     display: flex;
     flex-direction: column;
@@ -288,6 +288,11 @@
     width: 100%;
     height: -moz-fit-content;
     height: fit-content;
+}
+
+.Gallery_plate__QZB5k {
+    width: 25%;
+    height: auto;
 }
 
 @media(max-width: 1024px) {
@@ -522,6 +527,27 @@
     font-weight: 500;
 }
 
+.home_landing_div__DWZCy{
+    width:100%;
+    height:-moz-fit-content;
+    height:fit-content;
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+}
+
+.home_open_box__OLEao{
+    width: 30%;
+    height:auto;
+    object-fit:contain;
+}
+
+.home_wrapped_box__GFkPG{
+    width:30%;
+    height:auto;
+    object-fit:contain;
+}
+
 .home_logo__fwoF8 {
     width: auto;
     height: 90vh;
@@ -561,6 +587,12 @@
     height:auto;
 }
 
+.home_copyright__JR_sL{
+    font-size: calc(16px + 1vw);
+    margin-top:4em;
+    margin-bottom:0;
+}
+
 @media(max-width:124em) {
     .home_textDiv__GApgZ p {
         font-size: 32px;
@@ -591,6 +623,9 @@
         font-size: 32px;
     }
 
+    .home_copyright__JR_sL{
+        font-size: 14px;
+    }
 }
 
 @media(max-width:105em) {
@@ -622,10 +657,11 @@
 }
 
 @media(max-width: 87.5em) {
-    .home_main__C5E0Z{
-        margin-right:0.25em;
-        margin-left:0.25em;
+    .home_main__C5E0Z {
+        margin-right: 0.25em;
+        margin-left: 0.25em;
     }
+
     .home_menu_container__Lg0Za {
         flex-direction: column;
         justify-content: center;
@@ -643,6 +679,15 @@
     }
 }
 
+@media(max-width:80em){
+    .home_wrapped_box__GFkPG {
+        display: none;
+    }
+    .home_open_box__OLEao{
+        display:none;
+    }
+}
+
 @media screen and (orientation: landscape) {
 
     @media (max-width: 68em) {
@@ -653,6 +698,9 @@
         .home_about__7XlFx {
             font-size: 24px;
             text-indent: 24px;
+        }
+        .home_copyright__JR_sL {
+            font-size: 12px;
         }
     }
 
@@ -721,6 +769,9 @@
             font-size: 28px;
             text-indent: 28px;
             width: 90%;
+        }
+        .home_copyright__JR_sL {
+            font-size: 12px;
         }
     }
 

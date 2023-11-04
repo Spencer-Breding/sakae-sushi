@@ -20,6 +20,11 @@
     height: fit-content;
 }
 
+.plate {
+    width: 25%;
+    height: auto;
+}
+
 @media(max-width: 1024px) {
     .container {
         padding-left: 1em;

@@ -72,7 +72,7 @@
 @media(max-width:87.5em) {
     .gallery_item {
         width: 45%;
-        height: 30vh;
+        height: auto;
     }
 
         .gallery_item p {
