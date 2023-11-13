@@ -14,6 +14,13 @@ export default function Home() {
                 <Image className={styles.wrapped_box} src="./images/Wrapped_Box.webp" alt="Wrapped Box of Sushi" width={1} height={1} />
             </div>
             <h2 id="AboutUs" className={styles.headerText}>About Us</h2>
+            <p className={styles.about}>
+                <em><b>[This is placeholder text until the final about us text has been approved.]</b></em><br/>
+                Welcome to Sakae Sushi, a cherished gem nestled in the heart of Gardena, California. Our small, locally-owned sushi restaurant embodies the spirit of traditional Japanese cuisine.
+                At Sakae Sushi, we believe in simplicity and excellence. Our menu, carefully curated, features six exquisite types of sushi: Nori-maki, Inari, Ebi, Saba, Tamago-maki, and California Roll.
+                <br />
+                <em><b>Please note that we only accept cash payments!</b></em>
+            </p>
             <h2 id="Menu" className={styles.headerText}>Menu</h2>
             <div className={styles.menu_container}>
                 <Image className={styles.menu_left} src="./images/Menu_Left.webp" alt="Sushi Take Out Menu" width={1} height={1} />

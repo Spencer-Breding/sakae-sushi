@@ -53,11 +53,11 @@
 }
 
 .about {
-    color: white;
+    color: #057854;
     font-size: calc(12px + 1.5vw);
     margin: auto;
-    margin-bottom:0.5em;
-    text-align: left;
+    margin-bottom: 0.5em;
+    text-align: center;
     text-indent: calc(12px + 1.5vw);
     font-weight: 500;
     font-family: Poppins;
