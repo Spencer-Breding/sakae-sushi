@@ -57,11 +57,12 @@
     font-size: calc(12px + 1.5vw);
     margin: auto;
     margin-bottom: 0.5em;
-    text-align: center;
-    text-indent: calc(12px + 1.5vw);
+    text-align: left;
+    text-indent: calc(12px + 2.5vw);
     font-weight: 500;
     font-family: Poppins;
     width: 85%;
+    text-indent:each-line;
 }
 
 .menu_container{
@@ -103,8 +104,8 @@
     }
 
     .about {
-        font-size: 30px;
-        text-indent: 30px;
+        font-size: 24px;
+        text-indent: 48px;
     }
 
     .peter{
@@ -138,11 +139,6 @@
         font-size: 42px;
     }
 
-    .about {
-        font-size: 28px;
-        text-indent: 28px;
-    }
-
     .competencies {
         transform:translateX(5%);
     }
@@ -156,6 +152,11 @@
     .main {
         margin-right: 0.25em;
         margin-left: 0.25em;
+    }
+
+    .about {
+        font-size: 22px;
+        text-indent: 44px;
     }
 
     .menu_container {
@@ -192,8 +193,8 @@
         }
 
         .about {
-            font-size: 24px;
-            text-indent: 24px;
+            font-size: 20px;
+            text-indent: 40px;
         }
         .copyright {
             font-size: 12px;
@@ -205,11 +206,6 @@
 
         .headerText {
             font-size: 36px;
-        }
-
-        .about {
-            font-size: 22px;
-            text-indent: 22px;
         }
     }
 
@@ -225,16 +221,9 @@
 
             .about {
                 font-size: 18px;
-                text-indent: 18px;
+                text-indent: 36px;
             }
 
-        }
-
-        @media(max-width:24em) {
-            .about {
-                font-size: 18px;
-                text-indent: 18px;
-            }
         }
     }
 
@@ -262,8 +251,8 @@
         }
 
         .about {
-            font-size: 28px;
-            text-indent: 28px;
+            font-size: 20px;
+            text-indent: 40px;
             width: 90%;
         }
         .copyright {
@@ -277,25 +266,12 @@
         .headerText {
             font-size: 32px;
         }
-
-        .about {
-            font-size: 24px;
-            text-indent: 16px;
-        }
-    }
-
-    @media(max-width: 40em) {
-
-        .about {
-            font-size: 20px;
-            text-indent: 12px;
-        }
     }
 
     @media(max-width:24em) {
         .about {
-            font-size: 16px;
-            text-indent: 16px;
+            font-size: 18px;
+            text-indent: 36px;
         }
     }
 }
