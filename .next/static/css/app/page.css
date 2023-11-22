@@ -339,147 +339,174 @@
     }
 }
 
-/*!*************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[12].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[12].oneOf[7].use[3]!./src/styles/Contact.module.css ***!
-  \*************************************************************************************************************************************************************************************************************************************************************************/
-.Contact_container__ZEYbW {
+/*!***********************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[12].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[12].oneOf[7].use[3]!./src/styles/Order.module.css ***!
+  \***********************************************************************************************************************************************************************************************************************************************************************/
+.Order_container__bqg58 {
     display: flex;
     color: white;
     text-align: center;
     width: 100%;
     flex-wrap: wrap;
     margin-top:-2em;
+    flex-direction:column;
 }
 
-    .Contact_container__ZEYbW div {
+    .Order_container__bqg58 div {
         width: 33%;
         white-space: nowrap;
-        flex: 1 1;
+        margin:auto;
     }
 
-.Contact_title__7TgAL {
+.Order_title__W8N8F {
     color:#057854;
     font-size: calc(20px + 1.25vw);
     font-family:Poppins;
     margin-bottom: 0;
 }
 
-.Contact_body_text__fYPZs {
+.Order_body_text__JEpz3 {
     font-family: Poppins;
     font-size: calc(16px + 1vw);
     color:black;
+    margin:auto;
+}
+
+.Order_pickup__fvb3B{
+    color:black;
+    font-size: calc(14px + 0.25vw);
+    text-align:center;
+    margin-bottom:0;
 }
 
 @media screen and (orientation: landscape) {
 
     @media(max-width:124em) {
-        .Contact_title__7TgAL {
+        .Order_title__W8N8F {
             font-size: 34px;
         }
 
-        .Contact_body_text__fYPZs {
+        .Order_body_text__JEpz3 {
             font-size: 24px;
+        }
+        .Order_pickup__fvb3B{
+            font-size:18px;
         }
     }
 
     @media(max-width:96em) {
-        .Contact_title__7TgAL {
+        .Order_title__W8N8F {
             font-size: 30px;
         }
 
-        .Contact_body_text__fYPZs {
+        .Order_body_text__JEpz3 {
             font-size: 22px;
         }
     }
 
     @media(max-width:87.5em) {
-        .Contact_title__7TgAL {
+        .Order_title__W8N8F {
             font-size: 30px;
         }
 
-        .Contact_body_text__fYPZs {
+        .Order_body_text__JEpz3 {
             font-size: 20px;
+        }
+        .Order_pickup__fvb3B {
+            font-size: 16px;
         }
     }
 
     @media(max-width:68em) {
-        .Contact_container__ZEYbW div{
+        .Order_container__bqg58 div{
             width: 100%;
             flex:none;
         }
-        .Contact_title__7TgAL {
+        .Order_title__W8N8F {
             font-size: 32px;
         }
 
-        .Contact_body_text__fYPZs {
+        .Order_body_text__JEpz3 {
             font-size: 24px;
         }
     }
 
     @media(max-width:54em) {
 
-        .Contact_title__7TgAL {
+        .Order_title__W8N8F {
             font-size: 28px;
         }
 
-        .Contact_body_text__fYPZs {
+        .Order_body_text__JEpz3 {
             font-size: 22px;
+        }
+        .Order_pickup__fvb3B {
+            font-size: 14px;
         }
     }
 }
 
 @media screen and (orientation: portrait) {
     @media(max-width:68em) {
-        .Contact_container__ZEYbW div{
+        .Order_container__bqg58 div{
             width: 100%;
             flex:none;
         }
-        .Contact_title__7TgAL {
+        .Order_title__W8N8F {
             font-size: 32px;
         }
 
-        .Contact_body_text__fYPZs {
+        .Order_body_text__JEpz3 {
             font-size: 24px;
+        }
+        .Order_pickup__fvb3B {
+            font-size: 16px;
         }
     }
 
     @media(max-width:52em) {
-        .Contact_title__7TgAL {
+        .Order_title__W8N8F {
             font-size: 30px;
         }
 
-        .Contact_body_text__fYPZs {
+        .Order_body_text__JEpz3 {
             font-size: 22px;
         }
     }
 
-    @media(max-width:36em) {
-        .Contact_container__ZEYbW div {
+    @media(max-width:40em) {
+        .Order_container__bqg58 div {
             width: 100%;
         }
 
-        .Contact_title__7TgAL {
+        .Order_title__W8N8F {
             font-size: 28px;
         }
 
-        .Contact_body_text__fYPZs {
+        .Order_body_text__JEpz3 {
             font-size: 20px;
+        }
+        .Order_pickup__fvb3B {
+            font-size: 16px;
         }
     }
 
     @media(max-width:20em) {
 
-        .Contact_title__7TgAL {
+        .Order_title__W8N8F {
             font-size: 24px;
         }
 
-        .Contact_body_text__fYPZs {
+        .Order_body_text__JEpz3 {
             font-size: 16px;
+        }
+        .Order_pickup__fvb3B {
+            font-size: 14px;
         }
     }
 }
 
-@keyframes Contact_shake__3d7TP {
+@keyframes Order_shake__zOarB {
     0%, 100% {
         transform: rotate(0deg);
     }
@@ -561,11 +588,72 @@
     font-size: calc(12px + 1.5vw);
     margin: auto;
     margin-bottom: 0.5em;
-    text-align: center;
+    text-align: left;
     text-indent: calc(12px + 1.5vw);
     font-weight: 500;
     font-family: Poppins;
     width: 85%;
+}
+
+.home_tani_container__U2VGq{
+    display:flex;
+    flex-direction:row;
+    width:100%;
+    justify-content:center;
+    margin-top: 0.5em;
+    margin-bottom:0.5em;
+    gap:calc(12em + 4vw);
+}
+
+.home_aya_sumizo_container__SEeQa {
+    display: flex;
+    width: -moz-fit-content;
+    width: fit-content;
+    flex-direction: column;
+    text-align: center;
+    margin: auto;
+    margin-right:0;
+}
+
+.home_aya_sumizo__P_6go {
+    width: calc(400px + 10vw);
+    height: auto;
+    margin: auto;
+}
+
+.home_etsuko_container__g6KyA {
+    display: flex;
+    width: -moz-fit-content;
+    width: fit-content;
+    margin: auto;
+    flex-direction: column;
+    text-align:center;
+    margin-left:0;
+}
+
+.home_etsuko_tani__Ifz8n{
+    width: calc(340px + 8vw);
+    height:auto;
+    margin:auto;
+}
+
+.home_tani_text___RWSm{
+    font-family:Poppins;
+    font-size:calc(18px + 0.5vw);
+}
+
+.home_hours__OKE0j{
+    font-family:Poppins;
+    font-size: calc(18px + 0.5vw);
+    margin-top:-1em;
+    text-align:center;
+}
+
+.home_cash___bPbx {
+    font-family: Poppins;
+    font-size: calc(18px + 0.5vw);
+    margin-top:-0.5em;
+    text-align:center;
 }
 
 .home_menu_container__Lg0Za{
@@ -608,20 +696,32 @@
     }
 
     .home_about__7XlFx {
-        font-size: 30px;
-        text-indent: 30px;
+        font-size: 24px;
+        text-indent: 24px;
     }
 
-    .home_peter___Anyo{
-        margin-top:1.5em;
+    .home_tani_container__U2VGq{
+        gap:12em;
     }
 
-    .home_competenciesHeader__9psDf {
-        font-size: 34px;
+    .home_aya_sumizo__P_6go{
+        width:400px;
     }
 
-    .home_competencies__nkdoi {
-        font-size: 32px;
+    .home_etsuko_tani__Ifz8n{
+        width:340px;
+    }
+
+    .home_tani_text___RWSm{
+        font-size:18px;
+    }
+
+    .home_hours__OKE0j{
+        font-size:20px;
+    }
+    
+    .home_cash___bPbx{
+        font-size:22px;
     }
 
     .home_copyright__JR_sL{
@@ -643,24 +743,20 @@
         font-size: 42px;
     }
 
-    .home_about__7XlFx {
-        font-size: 28px;
-        text-indent: 28px;
+    .home_tani_container__U2VGq {
+        gap: 10em;
     }
-
-    .home_competencies__nkdoi {
-        transform:translateX(5%);
-    }
-
-        .home_competencies__nkdoi li {
-            width: 30%;
-        }
 }
 
 @media(max-width: 87.5em) {
     .home_main__C5E0Z {
         margin-right: 0.25em;
         margin-left: 0.25em;
+    }
+
+    .home_about__7XlFx {
+        font-size: 22px;
+        text-indent: 22px;
     }
 
     .home_menu_container__Lg0Za {
@@ -687,6 +783,18 @@
     .home_open_box__OLEao{
         display:none;
     }
+    .home_about__7XlFx{
+        width:100%;
+    }
+    .home_tani_container__U2VGq{
+        gap:8em;
+    }
+    .home_aya_sumizo__P_6go {
+        width: 340px;
+    }
+    .home_etsuko_tani__Ifz8n{
+        width:280px;
+    }
 }
 
 @media screen and (orientation: landscape) {
@@ -697,9 +805,10 @@
         }
 
         .home_about__7XlFx {
-            font-size: 24px;
-            text-indent: 24px;
+            font-size: 20px;
+            text-indent: 20px;
         }
+
         .home_copyright__JR_sL {
             font-size: 12px;
         }
@@ -710,11 +819,6 @@
 
         .home_headerText__0GAyB {
             font-size: 36px;
-        }
-
-        .home_about__7XlFx {
-            font-size: 22px;
-            text-indent: 22px;
         }
     }
 
@@ -733,13 +837,6 @@
                 text-indent: 18px;
             }
 
-        }
-
-        @media(max-width:24em) {
-            .home_about__7XlFx {
-                font-size: 18px;
-                text-indent: 18px;
-            }
         }
     }
 
@@ -767,10 +864,23 @@
         }
 
         .home_about__7XlFx {
-            font-size: 28px;
-            text-indent: 28px;
+            font-size: 20px;
+            text-indent: 20px;
             width: 90%;
         }
+
+        .home_tani_container__U2VGq{
+            gap:4em;
+        }
+
+        .home_aya_sumizo__P_6go{
+            width: 300px;
+        }
+
+        .home_etsuko_tani__Ifz8n{
+            width: 260px;
+        }
+
         .home_copyright__JR_sL {
             font-size: 12px;
         }
@@ -783,24 +893,68 @@
             font-size: 32px;
         }
 
-        .home_about__7XlFx {
-            font-size: 24px;
-            text-indent: 16px;
+        .home_aya_sumizo__P_6go {
+            width: 260px;
+        }
+
+        .home_etsuko_tani__Ifz8n {
+            width: 220px;
+        }
+        .home_hours__OKE0j {
+            font-size: 16px;
+        }
+
+        .home_cash___bPbx {
+            font-size: 18px;
+        }
+
+    }
+
+    @media(max-width:40em){
+        .home_about__7XlFx{
+            font-size:18px;
+            text-indent:18px;
+        }
+
+        .home_tani_container__U2VGq{
+            flex-direction:row;
+            gap:1em;
+        }
+
+        .home_aya_sumizo_container__SEeQa{
+            margin:auto;
+        }
+
+        .home_etsuko_container__g6KyA{
+            margin:auto;
+        }
+
+        .home_aya_sumizo__P_6go {
+            width: 200px;
+        }
+
+        .home_etsuko_tani__Ifz8n {
+            width: 160px;
+        }
+        .home_tani_text___RWSm{
+            font-size:14px;
         }
     }
 
-    @media(max-width: 40em) {
-
-        .home_about__7XlFx {
-            font-size: 20px;
-            text-indent: 12px;
-        }
-    }
-
-    @media(max-width:24em) {
+    @media(max-width:20em) {
         .home_about__7XlFx {
             font-size: 16px;
             text-indent: 16px;
+        }
+        .home_tani_container__U2VGq{
+            flex-direction:column;
+        }
+        .home_hours__OKE0j {
+            font-size: 14px;
+        }
+
+        .home_cash___bPbx {
+            font-size: 16px;
         }
     }
 }

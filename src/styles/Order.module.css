@@ -1,0 +1,181 @@
+﻿.container {
+    display: flex;
+    color: white;
+    text-align: center;
+    width: 100%;
+    flex-wrap: wrap;
+    margin-top:-2em;
+    flex-direction:column;
+}
+
+    .container div {
+        width: 33%;
+        white-space: nowrap;
+        margin:auto;
+    }
+
+.title {
+    color:#057854;
+    font-size: calc(20px + 1.25vw);
+    font-family:Poppins;
+    margin-bottom: 0;
+}
+
+.body_text {
+    font-family: Poppins;
+    font-size: calc(16px + 1vw);
+    color:black;
+    margin:auto;
+}
+
+.pickup{
+    color:black;
+    font-size: calc(14px + 0.25vw);
+    text-align:center;
+    margin-bottom:0;
+}
+
+@media screen and (orientation: landscape) {
+
+    @media(max-width:124em) {
+        .title {
+            font-size: 34px;
+        }
+
+        .body_text {
+            font-size: 24px;
+        }
+        .pickup{
+            font-size:18px;
+        }
+    }
+
+    @media(max-width:96em) {
+        .title {
+            font-size: 30px;
+        }
+
+        .body_text {
+            font-size: 22px;
+        }
+    }
+
+    @media(max-width:87.5em) {
+        .title {
+            font-size: 30px;
+        }
+
+        .body_text {
+            font-size: 20px;
+        }
+        .pickup {
+            font-size: 16px;
+        }
+    }
+
+    @media(max-width:68em) {
+        .container div{
+            width: 100%;
+            flex:none;
+        }
+        .title {
+            font-size: 32px;
+        }
+
+        .body_text {
+            font-size: 24px;
+        }
+    }
+
+    @media(max-width:54em) {
+
+        .title {
+            font-size: 28px;
+        }
+
+        .body_text {
+            font-size: 22px;
+        }
+        .pickup {
+            font-size: 14px;
+        }
+    }
+}
+
+@media screen and (orientation: portrait) {
+    @media(max-width:68em) {
+        .container div{
+            width: 100%;
+            flex:none;
+        }
+        .title {
+            font-size: 32px;
+        }
+
+        .body_text {
+            font-size: 24px;
+        }
+        .pickup {
+            font-size: 16px;
+        }
+    }
+
+    @media(max-width:52em) {
+        .title {
+            font-size: 30px;
+        }
+
+        .body_text {
+            font-size: 22px;
+        }
+    }
+
+    @media(max-width:40em) {
+        .container div {
+            width: 100%;
+        }
+
+        .title {
+            font-size: 28px;
+        }
+
+        .body_text {
+            font-size: 20px;
+        }
+        .pickup {
+            font-size: 16px;
+        }
+    }
+
+    @media(max-width:20em) {
+
+        .title {
+            font-size: 24px;
+        }
+
+        .body_text {
+            font-size: 16px;
+        }
+        .pickup {
+            font-size: 14px;
+        }
+    }
+}
+
+@keyframes shake {
+    0%, 100% {
+        transform: rotate(0deg);
+    }
+
+    25% {
+        transform: rotate(10deg);
+    }
+
+    50% {
+        transform: rotate(-10deg);
+    }
+
+    75% {
+        transform: rotate(5deg);
+    }
+}

@@ -29,7 +29,7 @@ export default function Navbar(props) {
 
     const animationClass = state.openBurger && state.firstClick ? 'openLine' : state.firstClick ? 'closeLine' : '';
 
-    const sectionIds = useMemo(() => ["AboutUs", "Menu", "Contact"], []);
+    const sectionIds = useMemo(() => ["AboutUs", "Menu", "Order"], []);
 
     const closeBurger = () => {
         setState(prevState => ({ ...prevState, openBurger: false }));
@@ -158,8 +158,8 @@ export default function Navbar(props) {
                     <div className={styles.navbar_item} onClick={() => handleItemClick("Menu")}>
                         <p>Menu</p>
                     </div>
-                    <div className={styles.navbar_item} onClick={() => handleItemClick("Contact")}>
-                        <p>Contact Us</p>
+                    <div className={styles.navbar_item} onClick={() => handleItemClick("Order")}>
+                        <p>Order Now</p>
                     </div>
                 </div>
             </div>
@@ -179,8 +179,8 @@ export default function Navbar(props) {
                             <div className={styles.burger_item} onClick={() => handleItemClick("Menu")}>
                                 <p>Menu</p>
                             </div>
-                            <div className={styles.burger_item} onClick={() => handleItemClick("Contact")}>
-                                <p>Contact Us</p>
+                            <div className={styles.burger_item} onClick={() => handleItemClick("Order")}>
+                                <p>Order Now</p>
                             </div>
                         </div>
                     </div>
