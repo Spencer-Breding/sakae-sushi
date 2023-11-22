@@ -78,7 +78,7 @@ export default function Home() {
             <h2 id="Menu" className={styles.headerText}>Menu</h2>
             <p className={styles.hours}>Open Wed thru Sun,  9am - 4pm</p>
             <p className={styles.hours}>Closed Mon, Tues and some holidays.</p>
-            <p className={styles.cash}><b><em>WE ONLY ACCEPT CASH</em></b></p>
+            <p className={styles.cash}><b><em>***WE ACCEPT CASH ONLY***</em></b></p>
             <div className={styles.menu_container}>
                 <Image className={styles.menu_left} src="./images/Menu_Left.webp" alt="Sushi Take Out Menu" width={1} height={1} />
                 <Image className={styles.menu_right} src="./images/Menu_Right.webp" alt="Sushi by the Box Menu" width={1} height={1} />
@@ -86,6 +86,16 @@ export default function Home() {
             <ImageGallery />
             <h2 id="Order" className={styles.headerText}>Order Now</h2>
             <Order />
+            <div className={styles.articles }>
+                <p>&quot;For the Tani clan, Sakae Sushi has been at the center of their lives for three generations.&quot;
+                    <br />
+                    <em>-<a target="blank" href="https://www.zentokufoundation.org/sakae">Zentoku Foundation</a></em>
+                </p>
+                <p>&quot;This South Bay sushi shop has been serving the same six items for decades — and wants to keep it that way&quot;
+                    <br />
+                    <em>-<a target="blank" href="https://www.latimes.com/food/story/2023-05-03/sakae-sushi-gardena-futomaki-south-bay">L.A. Times</a></em>
+                </p>
+            </div>
             <p className={styles.copyright}>&copy; 2023 Sakae Sushi, Inc.</p>
         </div>
     )
