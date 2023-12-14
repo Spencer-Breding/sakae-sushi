@@ -293,16 +293,6 @@
     }
 }
 
-@media(max-width:60em){
-    .wrapped_box {
-        display: none;
-    }
-
-    .open_box {
-        display: none;
-    }
-}
-
 @media screen and (orientation: landscape) {
 
     @media (max-width: 68em) {
@@ -397,6 +387,16 @@
 
         .copyright {
             font-size: 12px;
+        }
+    }
+
+    @media(max-width:60em) {
+        .wrapped_box {
+            display: none;
+        }
+
+        .open_box {
+            display: none;
         }
     }
 

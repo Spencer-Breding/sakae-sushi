@@ -828,16 +828,6 @@
     }
 }
 
-@media(max-width:60em){
-    .home_wrapped_box__GFkPG {
-        display: none;
-    }
-
-    .home_open_box__OLEao {
-        display: none;
-    }
-}
-
 @media screen and (orientation: landscape) {
 
     @media (max-width: 68em) {
@@ -932,6 +922,16 @@
 
         .home_copyright__JR_sL {
             font-size: 12px;
+        }
+    }
+
+    @media(max-width:60em) {
+        .home_wrapped_box__GFkPG {
+            display: none;
+        }
+
+        .home_open_box__OLEao {
+            display: none;
         }
     }
 
