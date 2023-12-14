@@ -609,33 +609,21 @@
     display: flex;
     width: -moz-fit-content;
     width: fit-content;
+    height:-moz-fit-content;
+    height:fit-content;
     flex-direction: column;
     text-align: center;
     margin: auto;
-    margin-right:0;
 }
 
 .home_aya_sumizo__P_6go {
-    width: calc(400px + 10vw);
+    width: auto;
+    max-width: 80vw;
     height: auto;
+    max-height: 80vh;
     margin: auto;
 }
 
-.home_etsuko_container__g6KyA {
-    display: flex;
-    width: -moz-fit-content;
-    width: fit-content;
-    margin: auto;
-    flex-direction: column;
-    text-align:center;
-    margin-left:0;
-}
-
-.home_etsuko_tani__Ifz8n{
-    width: calc(340px + 8vw);
-    height:auto;
-    margin:auto;
-}
 
 .home_tani_text___RWSm{
     font-family:Poppins;
@@ -728,18 +716,6 @@
         text-indent: 24px;
     }
 
-    .home_tani_container__U2VGq{
-        gap:12em;
-    }
-
-    .home_aya_sumizo__P_6go{
-        width:400px;
-    }
-
-    .home_etsuko_tani__Ifz8n{
-        width:340px;
-    }
-
     .home_tani_text___RWSm{
         font-size:18px;
     }
@@ -816,15 +792,6 @@
 @media(max-width:80em){
     .home_about__7XlFx{
         width:100%;
-    }
-    .home_tani_container__U2VGq{
-        gap:8em;
-    }
-    .home_aya_sumizo__P_6go {
-        width: 340px;
-    }
-    .home_etsuko_tani__Ifz8n{
-        width:280px;
     }
 }
 
@@ -907,19 +874,6 @@
             text-indent: 20px;
             width: 90%;
         }
-
-        .home_tani_container__U2VGq{
-            gap:4em;
-        }
-
-        .home_aya_sumizo__P_6go{
-            width: 300px;
-        }
-
-        .home_etsuko_tani__Ifz8n{
-            width: 260px;
-        }
-
         .home_copyright__JR_sL {
             font-size: 12px;
         }
@@ -942,13 +896,6 @@
             font-size: 32px;
         }
 
-        .home_aya_sumizo__P_6go {
-            width: 260px;
-        }
-
-        .home_etsuko_tani__Ifz8n {
-            width: 220px;
-        }
         .home_hours__OKE0j {
             font-size: 16px;
         }
@@ -965,26 +912,6 @@
             text-indent:18px;
         }
 
-        .home_tani_container__U2VGq{
-            flex-direction:row;
-            gap:1em;
-        }
-
-        .home_aya_sumizo_container__SEeQa{
-            margin:auto;
-        }
-
-        .home_etsuko_container__g6KyA{
-            margin:auto;
-        }
-
-        .home_aya_sumizo__P_6go {
-            width: 200px;
-        }
-
-        .home_etsuko_tani__Ifz8n {
-            width: 160px;
-        }
         .home_tani_text___RWSm{
             font-size:14px;
         }
@@ -1000,9 +927,6 @@
         .home_about__7XlFx {
             font-size: 16px;
             text-indent: 16px;
-        }
-        .home_tani_container__U2VGq{
-            flex-direction:column;
         }
         .home_hours__OKE0j {
             font-size: 14px;

@@ -77,32 +77,20 @@
 .aya_sumizo_container {
     display: flex;
     width: fit-content;
+    height:fit-content;
     flex-direction: column;
     text-align: center;
     margin: auto;
-    margin-right:0;
 }
 
 .aya_sumizo {
-    width: calc(400px + 10vw);
+    width: auto;
+    max-width: 80vw;
     height: auto;
+    max-height: 80vh;
     margin: auto;
 }
 
-.etsuko_container {
-    display: flex;
-    width: fit-content;
-    margin: auto;
-    flex-direction: column;
-    text-align:center;
-    margin-left:0;
-}
-
-.etsuko_tani{
-    width: calc(340px + 8vw);
-    height:auto;
-    margin:auto;
-}
 
 .tani_text{
     font-family:Poppins;
@@ -193,18 +181,6 @@
         text-indent: 24px;
     }
 
-    .tani_container{
-        gap:12em;
-    }
-
-    .aya_sumizo{
-        width:400px;
-    }
-
-    .etsuko_tani{
-        width:340px;
-    }
-
     .tani_text{
         font-size:18px;
     }
@@ -281,15 +257,6 @@
 @media(max-width:80em){
     .about{
         width:100%;
-    }
-    .tani_container{
-        gap:8em;
-    }
-    .aya_sumizo {
-        width: 340px;
-    }
-    .etsuko_tani{
-        width:280px;
     }
 }
 
@@ -372,19 +339,6 @@
             text-indent: 20px;
             width: 90%;
         }
-
-        .tani_container{
-            gap:4em;
-        }
-
-        .aya_sumizo{
-            width: 300px;
-        }
-
-        .etsuko_tani{
-            width: 260px;
-        }
-
         .copyright {
             font-size: 12px;
         }
@@ -407,13 +361,6 @@
             font-size: 32px;
         }
 
-        .aya_sumizo {
-            width: 260px;
-        }
-
-        .etsuko_tani {
-            width: 220px;
-        }
         .hours {
             font-size: 16px;
         }
@@ -430,26 +377,6 @@
             text-indent:18px;
         }
 
-        .tani_container{
-            flex-direction:row;
-            gap:1em;
-        }
-
-        .aya_sumizo_container{
-            margin:auto;
-        }
-
-        .etsuko_container{
-            margin:auto;
-        }
-
-        .aya_sumizo {
-            width: 200px;
-        }
-
-        .etsuko_tani {
-            width: 160px;
-        }
         .tani_text{
             font-size:14px;
         }
@@ -465,9 +392,6 @@
         .about {
             font-size: 16px;
             text-indent: 16px;
-        }
-        .tani_container{
-            flex-direction:column;
         }
         .hours {
             font-size: 14px;

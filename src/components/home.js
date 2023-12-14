@@ -42,15 +42,9 @@ export default function Home() {
                 Etsuko’s daughter.
                 <br />
             </p>
-            <div className={styles.tani_container}>
-                <div className={styles.aya_sumizo_container}>
-                    <Image src='./images/AyaSumizoTani.webp' className={styles.aya_sumizo} height={500} width={300} alt="Aya and Sumizo Tani" />
-                    <p className={styles.tani_text }>Aya and Sumizo Tani</p>
-                </div>
-                <div className={styles.etsuko_container}>
-                    <Image src='./images/EtsukoTani.webp' className={styles.etsuko_tani} height={500} width={300} alt="Aya and Sumizo Tani" />
-                    <p className={styles.tani_text}>Etsuko Tani</p>
-                </div>
+            <div className={styles.aya_sumizo_container}>
+                <Image src='./images/AyaSumizoTani.webp' className={styles.aya_sumizo} height={500} width={300} alt="Aya and Sumizo Tani" />
+                <p className={styles.tani_text}>Aya and Sumizo Tani</p>
             </div>
             <p className={styles.about}>
                 The traditions at Sakae Sushi remain very much the same since we were opened
@@ -86,7 +80,7 @@ export default function Home() {
             <ImageGallery />
             <h2 id="Order" className={styles.headerText}>Order Now</h2>
             <Order />
-            <div className={styles.articles }>
+            <div className={styles.articles}>
                 <p>&quot;For the Tani clan, Sakae Sushi has been at the center of their lives for three generations.&quot;
                     <br />
                     <em>-<a target="blank" href="https://www.zentokufoundation.org/sakae">Zentoku Foundation</a></em>
