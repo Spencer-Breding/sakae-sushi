@@ -279,12 +279,6 @@
 }
 
 @media(max-width:80em){
-    .wrapped_box {
-        display: none;
-    }
-    .open_box{
-        display:none;
-    }
     .about{
         width:100%;
     }
@@ -296,6 +290,16 @@
     }
     .etsuko_tani{
         width:280px;
+    }
+}
+
+@media(max-width:60em){
+    .wrapped_box {
+        display: none;
+    }
+
+    .open_box {
+        display: none;
     }
 }
 
